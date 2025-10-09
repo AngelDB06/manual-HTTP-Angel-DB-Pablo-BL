@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:up":"json-server --watch src/db/db.json --port 4000",
+    "crud:curl":"node src/crud-curl.js",
+    "validate" : "bash scripts/validate.sh"
   },
   "repository": {
     "type": "git",
@@ -21,6 +25,7 @@
     "dotenv": "^17.2.3"
   },
   "devDependencies": {
+    "json-server": "^1.0.0-beta.3",
     "nodemon": "^3.1.10"
   }
 }
