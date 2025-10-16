@@ -6,7 +6,7 @@ const API_URL = process.env.API_URL || "http://localhost";
 const PORT=process.env.PORT || 4000;
 const BASE_URL=`${API_URL}:${PORT}`
 
-//FUNCION CREAR ESTUDIANTES
+//FUNCIÓN CREAR ESTUDIANTES
 export async function createStudent(studentData) {
   const url = `${BASE_URL}/students`;
   console.log(`📋 CREATE → POST ${url}`);
@@ -27,6 +27,21 @@ export async function createStudent(studentData) {
 }
 
 
+//FUNCIÓN LEER ESTUDIANTES
+export async function readAllStudents() {
+  const url = `${BASE_URL}/students`;
+  console.log(`🔍 READ ALL → GET ${url}`);
+
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log("✅ Lista de estudiantes:", data);
+    return data;
+  } catch (error) {
+    console.error("❌ Error al leer estudiantes:", error);
+  }
+}
+
 
 
 
@@ -41,3 +56,5 @@ createStudent({
   level: "beginner"
 });
 */
+
+//readAllStudents();
