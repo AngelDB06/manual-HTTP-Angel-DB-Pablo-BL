@@ -32,3 +32,12 @@ export async function createStudent(studentData) {
 
 
 
+/*TEST FUNCIONES CRUD
+createStudent({
+  name: "Alumno nuevo",
+  email: "alumno.nuevo@email.com",
+  enrollmentDate: "2025-10-16",
+  active: true,
+  level: "beginner"
+});
+*/
