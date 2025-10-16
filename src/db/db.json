@@ -10,11 +10,11 @@
     },
     {
       "id": "2",
-      "name": "Carlos Rodríguez Martín",
-      "email": "carlos.rodriguez@email.com",
-      "enrollmentDate": "2024-10-01",
+      "name": "Alumno Actualizado",
+      "email": "alumno.actualizado@email.com",
+      "enrollmentDate": "2025-10-16",
       "active": true,
-      "level": "beginner"
+      "level": "intermediate"
     },
     {
       "id": "3",

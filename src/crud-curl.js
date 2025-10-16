@@ -59,6 +59,28 @@ export async function readStudentById(id) {
 }
 
 
+//FUNCION PARA ACTUALIZAR UN ESTUDIANTE
+export async function updateStudent(id, studentData) {
+  const url = `${BASE_URL}/students/${id}`;
+  console.log(`🔄 UPDATE → PUT ${url}`);
+
+  try {
+    const response = await fetch(url, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(studentData),
+    });
+
+    const data = await response.json();
+    console.log(`✅ Estudiante ${id} actualizado:`, data);
+    return data;
+  } catch (error) {
+    console.error(`❌ Error al actualizar estudiante ${id}:`, error);
+  }
+}
+
+
+
 
 
 /*TEST FUNCIONES CRUD
@@ -74,3 +96,12 @@ createStudent({
 //readAllStudents();
 
 //readStudentById(3);
+
+/*updateStudent(2, {
+    id: 2,
+    name: "Alumno Actualizado",
+    email: "alumno.actualizado@email.com",
+    enrollmentDate: "2025-10-16",
+    active: true,
+    level: "intermediate",
+});*/
