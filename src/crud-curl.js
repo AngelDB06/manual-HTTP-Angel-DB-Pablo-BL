@@ -43,6 +43,20 @@ export async function readAllStudents() {
 }
 
 
+//FUNCIÓN PARA LEER ESTUDIANTES POR ID
+export async function readStudentById(id) {
+  const url = `${BASE_URL}/students/${id}`;
+  console.log(`🔍 READ ONE → GET ${url}`);
+
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log(`✅ Estudiante con ID ${id}:`, data);
+    return data;
+  } catch (error) {
+    console.error(`❌ Error al leer estudiante ${id}:`, error);
+  }
+}
 
 
 
@@ -58,3 +72,5 @@ createStudent({
 */
 
 //readAllStudents();
+
+//readStudentById(3);
