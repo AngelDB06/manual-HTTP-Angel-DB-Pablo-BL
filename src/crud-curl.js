@@ -103,17 +103,38 @@ export async function patchStudent(id, partialData) {
 
 
 
+//FUNCIÓN PARA ELIMINAR ESTUDIANTES
+export async function deleteStudent(id) {
+  const url = `${BASE_URL}/students/${id}`;
+  console.log(`🗑️ DELETE → DELETE ${url}`);
+
+  try {
+    const response = await fetch(url, { method: "DELETE" });
+
+    if (response.ok) {
+      console.log(`✅ Estudiante ${id} eliminado correctamente`);
+    } else {
+      console.error(`❌ Error al eliminar estudiante ${id}:`, response.status);
+    }
+  } catch (error) {
+    console.error(`❌ Error al eliminar estudiante ${id}:`, error);
+  }
+}
 
 
-/*TEST FUNCIONES CRUD
+
+
+
+//TEST FUNCIONES CRUD
+/*
 createStudent({
   name: "Alumno nuevo",
   email: "alumno.nuevo@email.com",
   enrollmentDate: "2025-10-16",
   active: true,
   level: "beginner"
-});
-*/
+});*/
+
 
 //readAllStudents();
 
@@ -130,3 +151,5 @@ createStudent({
 
 
 //patchStudent(1, { active: false });
+
+//deleteStudent("74bd");
