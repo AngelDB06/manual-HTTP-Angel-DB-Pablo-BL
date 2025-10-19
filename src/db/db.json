@@ -5,7 +5,7 @@
       "name": "María García López",
       "email": "maria.garcia@email.com",
       "enrollmentDate": "2024-09-15",
-      "active": true,
+      "active": false,
       "level": "intermediate"
     },
     {

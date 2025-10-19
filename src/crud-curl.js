@@ -81,6 +81,28 @@ export async function updateStudent(id, studentData) {
 
 
 
+// FUNCION PARA ACTUALIZAR UN ESTUDIANTE PARCIALMENTE
+export async function patchStudent(id, partialData) {
+  const url = `${BASE_URL}/students/${id}`;
+  console.log(`✏️ PATCH → PATCH ${url}`);
+
+  try {
+    const response = await fetch(url, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(partialData),
+    });
+
+    const data = await response.json();
+    console.log(`✅ Estudiante ${id} actualizado parcialmente:`, data);
+    return data;
+  } catch (error) {
+    console.error(`❌ Error al hacer PATCH de estudiante ${id}:`, error);
+  }
+}
+
+
+
 
 
 /*TEST FUNCIONES CRUD
@@ -105,3 +127,6 @@ createStudent({
     active: true,
     level: "intermediate",
 });*/
+
+
+//patchStudent(1, { active: false });
