@@ -1,0 +1,91 @@
+###############################################
+# 🌐 VARIABLES GLOBALES
+# Estas se usarán en todas las peticiones
+###############################################
+@apiUrl = http://localhost
+@port = 4000
+@baseUrl = {{apiUrl}}:{{port}}
+
+###############################################
+# ➕ CREATE - Crear un nuevo estudiante
+###############################################
+POST {{baseUrl}}/students
+Content-Type: application/json
+
+{
+  "name": "Jose Rómero Galera",
+  "email": "jose@email.com",
+  "enrollmentDate": "2025-10-16",
+  "active": true,
+  "level": "beginner"
+}
+
+###
+
+###############################################
+# 📋 READ - Obtener todos los estudiantes
+###############################################
+GET {{baseUrl}}/students
+
+###
+
+###############################################
+# 🔍 READ - Obtener estudiante por ID
+# Cambia el número al ID que quieras consultar
+###############################################
+GET {{baseUrl}}/students/1
+
+###
+
+###############################################
+# ✅ READ - Filtrar estudiantes activos
+# Usamos query params de json-server
+###############################################
+GET {{baseUrl}}/students?active=true
+
+###
+
+###############################################
+# 📊 READ - Filtrar por nivel
+# Ejemplo: mostrar solo los "intermediate"
+###############################################
+GET {{baseUrl}}/students?level=intermediate
+
+###
+
+###############################################
+# 🔄 UPDATE - Actualizar estudiante completo (PUT)
+# Sustituye el ID por el del estudiante a modificar
+###############################################
+PUT {{baseUrl}}/students/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "María García López",
+  "email": "maria.garcia@email.com",
+  "enrollmentDate": "2024-09-15",
+  "active": false,
+  "level": "advanced"
+}
+
+###
+
+###############################################
+# ✏️ PATCH - Actualizar campo específico
+# Solo cambia un dato parcial
+###############################################
+PATCH {{baseUrl}}/students/2
+Content-Type: application/json
+
+{
+  "active": false
+}
+
+###
+
+###############################################
+# 🗑️ DELETE - Eliminar estudiante
+# Cambia el número al ID que quieras borrar
+###############################################
+DELETE {{baseUrl}}/students/ce80

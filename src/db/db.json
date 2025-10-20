@@ -6,14 +6,14 @@
       "email": "maria.garcia@email.com",
       "enrollmentDate": "2024-09-15",
       "active": false,
-      "level": "intermediate"
+      "level": "advanced"
     },
     {
       "id": "2",
       "name": "Alumno Actualizado",
       "email": "alumno.actualizado@email.com",
       "enrollmentDate": "2025-10-16",
-      "active": true,
+      "active": false,
       "level": "intermediate"
     },
     {
