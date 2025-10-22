@@ -1,5 +1,47 @@
 # manual-HTTP-Angel-DB-Pablo-BL
 
+## Peticiones CRUD con CURL
+
+### Explicación de flags
+
+| Flag                                  | Descripción                                                     |
+| ------------------------------------- | --------------------------------------------------------------- |
+| `-X POST`                             | Especifica el método HTTP (`POST`) para crear un nuevo recurso. |
+| `-H "Content-Type: application/json"` | Indica que el cuerpo de la solicitud está en formato JSON.      |
+| `-d '{...}'`                          | Define los datos (payload) que se enviarán al servidor.         |
+
+
+### POST
+
+![post](images/crudcurl/post.PNG)
+
+### GET
+
+![get](images/crudcurl/get.PNG)
+
+### GET ID
+
+![getid](images/crudcurl/getid.PNG)
+
+### PUT
+
+![put](images/crudcurl/put.PNG)
+
+### PATCH
+
+![patch](images/crudcurl/patch.PNG)
+
+### DELETE
+
+![delete](images/crudcurl/delete.PNG)
+
+
+### Resumen de códigos HTTP
+| Código                      | Descripción                    |
+| --------------------------- | ------------------------------ |
+| `200 OK`                    | Petición exitosa.              |
+| `201 Created`               | Recurso creado correctamente.  |
+
 ## Peticiones ThunderClient
 
 ### GET
