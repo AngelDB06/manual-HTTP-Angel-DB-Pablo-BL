@@ -153,3 +153,10 @@ Podemos comprobar que tras hacer el request no se encuentra el student puesto qu
 ### DELETE
 
 ![delete](images/restclient/delete.PNG)
+
+
+## VALIDACIÓN
+
+Una vez hecho el script de validación vamos a ponerlo a prueba:
+
+![validated](images/validate/validated.PNG)
