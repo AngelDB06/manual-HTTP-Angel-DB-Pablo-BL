@@ -12,16 +12,16 @@
 - [X] Crear base de datos `src/db/db.json` con las colecciones requeridas
 
 ## 💻 Parte 2: Script CRUD con funciones JavaScript
-- [ ] Crear archivo `src/crud-curl.js`
-- [ ] Importar y configurar `dotenv`
-- [ ] Definir `BASE_URL` con variables de entorno
-- [ ] Implementar función `createStudent(studentData)`
-- [ ] Implementar función `readAllStudents()`
-- [ ] Implementar función `readStudentById(id)`
-- [ ] Implementar función `updateStudent(id, studentData)`
-- [ ] Implementar función `patchStudent(id, partialData)`
-- [ ] Implementar función `deleteStudent(id)`
-- [ ] Ejecutar las funciones y mostrar los comandos cURL correctamente
+- [X] Crear archivo `src/crud-curl.js`
+- [X] Importar y configurar `dotenv`
+- [X] Definir `BASE_URL` con variables de entorno
+- [X] Implementar función `createStudent(studentData)`
+- [X] Implementar función `readAllStudents()`
+- [X] Implementar función `readStudentById(id)`
+- [X] Implementar función `updateStudent(id, studentData)`
+- [X] Implementar función `patchStudent(id, partialData)`
+- [X] Implementar función `deleteStudent(id)`
+- [X] Ejecutar las funciones y mostrar los comandos cURL correctamente
 
 ## 📚 Parte 3: Documentación CRUD con cURL
 - [ ] Documentar cada operación CRUD en `README.md`
@@ -30,22 +30,22 @@
 - [ ] Capturar y documentar las respuestas reales del servidor
 
 ## ⚡ Parte 4: Thunder Client
-- [ ] Crear las 6 peticiones CRUD en Thunder Client
-- [ ] Realizar capturas de pantalla de cada petición y guardarlas en `images/`
-- [ ] Incluir las capturas en el README con descripción
+- [X] Crear las 6 peticiones CRUD en Thunder Client
+- [X] Realizar capturas de pantalla de cada petición y guardarlas en `images/`
+- [X] Incluir las capturas en el README con descripción
 
 ## 🧾 Parte 5: REST Client
-- [ ] Crear archivo `peticiones-crud.http`
-- [ ] Definir variables `@baseUrl`, `@port`, `@apiUrl`
-- [ ] Implementar todas las operaciones CRUD con comentarios
-- [ ] Probar todas las peticiones en VS Code
+- [X] Crear archivo `peticiones-crud.http`
+- [X] Definir variables `@baseUrl`, `@port`, `@apiUrl`
+- [X] Implementar todas las operaciones CRUD con comentarios
+- [X] Probar todas las peticiones en VS Code
 
 ## 🧰 Parte 6: Script de Validación
-- [ ] Crear `scripts/validate.sh`
-- [ ] Validar existencia de archivos requeridos
-- [ ] Validar dependencias en `package.json`
-- [ ] Comprobar capturas en carpeta `images/`
-- [ ] Probar que el script funciona correctamente
+- [X] Crear `scripts/validate.sh`
+- [X] Validar existencia de archivos requeridos
+- [X] Validar dependencias en `package.json`
+- [X] Comprobar capturas en carpeta `images/`
+- [X] Probar que el script funciona correctamente
 
 ## 🌿 Parte 7: Git y GitHub
 - [ ] Crear repositorio remoto en GitHub

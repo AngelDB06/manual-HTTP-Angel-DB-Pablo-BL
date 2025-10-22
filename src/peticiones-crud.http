@@ -13,6 +13,7 @@ POST {{baseUrl}}/students
 Content-Type: application/json
 
 {
+  "id": 8,
   "name": "Jose Rómero Galera",
   "email": "jose@email.com",
   "enrollmentDate": "2025-10-16",
@@ -88,4 +89,4 @@ Content-Type: application/json
 # 🗑️ DELETE - Eliminar estudiante
 # Cambia el número al ID que quieras borrar
 ###############################################
-DELETE {{baseUrl}}/students/ce80
+DELETE {{baseUrl}}/students/c375
