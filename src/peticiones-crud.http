@@ -89,4 +89,4 @@ Content-Type: application/json
 # 🗑️ DELETE - Eliminar estudiante
 # Cambia el número al ID que quieras borrar
 ###############################################
-DELETE {{baseUrl}}/students/c375
+DELETE {{baseUrl}}/students/8

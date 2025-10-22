@@ -41,11 +41,11 @@
 - [X] Probar todas las peticiones en VS Code
 
 ## 🧰 Parte 6: Script de Validación
-- [X] Crear `scripts/validate.sh`
-- [X] Validar existencia de archivos requeridos
-- [X] Validar dependencias en `package.json`
-- [X] Comprobar capturas en carpeta `images/`
-- [X] Probar que el script funciona correctamente
+- [] Crear `scripts/validate.sh`
+- [] Validar existencia de archivos requeridos
+- [] Validar dependencias en `package.json`
+- [] Comprobar capturas en carpeta `images/`
+- [] Probar que el script funciona correctamente
 
 ## 🌿 Parte 7: Git y GitHub
 - [ ] Crear repositorio remoto en GitHub

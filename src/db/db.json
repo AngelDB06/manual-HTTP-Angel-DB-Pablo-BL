@@ -5,16 +5,16 @@
       "name": "María García López",
       "email": "maria.garcia@email.com",
       "enrollmentDate": "2024-09-15",
-      "active": false,
-      "level": "advanced"
+      "active": true,
+      "level": "intermediate"
     },
     {
-      "id": "2",
-      "name": "Alumno Actualizado",
-      "email": "alumno.actualizado@email.com",
-      "enrollmentDate": "2025-10-16",
+      "name": "Carlos Rodr�guez Mart�n",
+      "email": "carlos.rodriguez@email.com",
+      "enrollmentDate": "2024-10-01",
       "active": false,
-      "level": "intermediate"
+      "level": "intermediate",
+      "id": "2"
     },
     {
       "id": "3",
@@ -55,6 +55,14 @@
       "enrollmentDate": "2024-09-05",
       "active": false,
       "level": "intermediate"
+    },
+    {
+      "id": "8",
+      "name": "Sof�a Hern�ndez Ruiz",
+      "email": "sofia.hernandez@email.com",
+      "enrollmentDate": "2024-10-10",
+      "active": true,
+      "level": "beginner"
     }
   ],
   "courses": [
