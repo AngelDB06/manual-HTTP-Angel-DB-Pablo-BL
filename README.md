@@ -1,8 +1,6 @@
 # manual-HTTP-Angel-DB-Pablo-BL
 
 ## Peticiones ThunderClient
----
-
 
 ### GET
 
@@ -65,3 +63,51 @@ Introducimos la URL apuntando al student que queremos eliminar.
 
 Podemos comprobar que tras hacer el request no se encuentra el student puesto que ha sido eliminado.
 ![delete](images/thunderclient/delete/delete2.png)
+
+## Peticiones RestClient
+
+### POST
+
+![post](images/restclient/post.PNG)
+
+---
+
+### GET 
+
+![get](images/restclient/get.PNG)
+
+---
+
+### GET ID
+
+![getid](images/restclient/getid.PNG)
+
+---
+
+### GET FILTRADO POR ACTIVE=TRUE
+
+![getfiltrado1](images/restclient/getfiltrado.PNG)
+
+---
+
+### GET FILTRADO POR LEVEL=INTERMEDIATE
+
+![getfiltrado2](images/restclient/getfiltrado2.PNG)
+
+---
+
+### PUT
+
+![put](images/restclient/put.PNG)
+
+---
+
+### PATCH
+
+![patch](images/restclient/patch.PNG)
+
+---
+
+### DELETE
+
+![delete](images/restclient/delete.PNG)
