@@ -24,10 +24,10 @@
 - [X] Ejecutar las funciones y mostrar los comandos cURL correctamente
 
 ## 📚 Parte 3: Documentación CRUD con cURL
-- [ ] Documentar cada operación CRUD en `README.md`
-- [ ] Incluir comando cURL funcional para cada operación
-- [ ] Explicar cada flag y código de estado HTTP
-- [ ] Capturar y documentar las respuestas reales del servidor
+- [X] Documentar cada operación CRUD en `README.md`
+- [X] Incluir comando cURL funcional para cada operación
+- [X] Explicar cada flag y código de estado HTTP
+- [X] Capturar y documentar las respuestas reales del servidor
 
 ## ⚡ Parte 4: Thunder Client
 - [X] Crear las 6 peticiones CRUD en Thunder Client
@@ -41,26 +41,26 @@
 - [X] Probar todas las peticiones en VS Code
 
 ## 🧰 Parte 6: Script de Validación
-- [] Crear `scripts/validate.sh`
-- [] Validar existencia de archivos requeridos
-- [] Validar dependencias en `package.json`
-- [] Comprobar capturas en carpeta `images/`
-- [] Probar que el script funciona correctamente
+- [X] Crear `scripts/validate.sh`
+- [X] Validar existencia de archivos requeridos
+- [X] Validar dependencias en `package.json`
+- [X] Comprobar capturas en carpeta `images/`
+- [X] Probar que el script funciona correctamente
 
 ## 🌿 Parte 7: Git y GitHub
-- [ ] Crear repositorio remoto en GitHub
-- [ ] Inicializar Git local y conectar con remoto
-- [ ] Crear ramas `main` y `m1/http-request-response`
-- [ ] Realizar commits descriptivos por fase (feat:, fix:, docs:, etc.)
+- [X] Crear repositorio remoto en GitHub
+- [X] Inicializar Git local y conectar con remoto
+- [X] Crear ramas `main` y `m1/http-request-response`
+- [X] Realizar commits descriptivos por fase (feat:, fix:, docs:, etc.)
 - [ ] Crear Pull Request con título y descripción correctos
 - [ ] Asignar al profesor como reviewer
 - [ ] Crear tag `M1/http-request-response` tras la aprobación
 
 ## ✅ Parte 8: Validación Final
-- [ ] Ejecutar script de validación y comprobar todos los checks en verde
-- [ ] Confirmar que todas las funciones CRUD y peticiones funcionan correctamente
-- [ ] Revisar README completo con documentación, capturas y comandos
-- [ ] Confirmar estructura final del proyecto conforme al modelo
+- [X] Ejecutar script de validación y comprobar todos los checks en verde
+- [X] Confirmar que todas las funciones CRUD y peticiones funcionan correctamente
+- [X] Revisar README completo con documentación, capturas y comandos
+- [X] Confirmar estructura final del proyecto conforme al modelo
 
 ---
 📅 **Consejo:** Marca cada tarea al completarla.  
